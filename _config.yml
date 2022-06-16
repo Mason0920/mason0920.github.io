@@ -158,13 +158,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      개발 외에도 스트레스 관리를 위해 건강한 취미를 갖고 있어요!:
+      - [낚시](https://blog.naver.com/lscc1503)
+      - 독서 모임
+      - 러닝
 
-      Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer

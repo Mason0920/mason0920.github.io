@@ -56,7 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
   - 저는 **소통과 업무 효율은 비례관계**라 생각합니다.
   - 저는 AWS, 특히 **클라우드 비용최소화**에 관심이 많습니다. Lambda, ECS와 같은 **서버리스 서비스**를 더 알아가고 싶습니다.
   - 저는 항상 질문을 던지고 **스스로 답변하는** 방식을 통해 학습을 진행했습니다. 그 과정을 **나만의 언어**로 바꾸어 [블로그](https://thereisnotherway.tistory.com/)와 [노션 TIL](https://gigantic-thistle-8c2.notion.site/TIL-Today-I-Learned-877df2c605464a6ca94746b798559966)에 차곡차곡 정리했습니다.
-  - 저는 페어와 함께 **고민하고, 의견을 주고받는** 과정에서 많이 배우고 성장했습니다.
+  - 저는 페어, 팀원과 함께 **고민하고, 의견을 주고받는** 과정에서 많이 배우고 성장했습니다.
 
 content:
   - title: contents
@@ -98,7 +98,30 @@ content:
       - layout: top-middle
         title: DevOps
         description: |
-          쿠버네티스
+          - Docker를 활용하여 애플리케이션 컨테이너화 가능
+          - GitHub Action, CodePipeline을 활용하여 배포 자동화 구현 가능
+          - Terraform을 활용하여 AWS 리소스를 코드로 가질 수 있음
+          - shell script를 활용하여 업무 자동화 가능
+          - GitHub를 활용하여 협업 가능
+          - kubernetes를 활용하여 간단한 컨테이너 오케스트레이션 가능
+          - k6를 활용하여 HTTP Request 성능 테스트 가능
+          - Prometheus, Grafana를 활용하여 모니터링 시스템 구축 경험
+
+        
+      - layout: top-middle
+        title: AWS
+        description: |
+          - CloudFormation template을 활용하여 인프라 관리 경험
+          - 리소스를 이해하고, 아키텍쳐로 표현 가능
+          - 공식문서를 참고하여 아키텍쳐를 인프라로 구성 가능
+          - Cost Explorer를 활용하여 리소스 비용 관리 가능
+
+      - layout: top-middle
+        title: Backend
+        description: |
+          - My SQL, MongoDB와 node.js로 작성된 WAS 서버 구현 가능
+          - node.js로 3-tier 웹 서비스 구현 가능
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:

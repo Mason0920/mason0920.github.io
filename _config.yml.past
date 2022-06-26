@@ -50,73 +50,77 @@ linkedin_username: mason0920
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  ## **Introduction**
-
-  "생각했던 무언가를 만들어 낼 수 있다"는 점때문에 코딩에 관심을 가졌습니다. 그러한 관심으로 대학교에서 ai, 빅데이터 연계전공을 수강했습니다.
-  경제학을 전공한터라 효율적으로 행동하는 것을 좋아했습니다. 그래서 선형회귀분석, 기계학습과 같은 데이터 분석을 통해 유의미한 결과를 도출해내는 것보다, 엑셀 매크로를 통해 업무자동화를 하는 것에 더욱 흥미를 느꼈습니다.
-  졸업 후, 나무보다는 숲을 보며 효율성을 추구하며 업무자동화에 힘쓰는 DevOps에 매력을 느꼈고 제 커리어 전환을 꿈꿨습니다.
-  
-  ---
-
-  ## **How I learn**
-
-  - [에러를 만났을때](https://thereisnotherway.tistory.com/51) 주어진 상황을 분석하고 해결할 수 있습니다.
-  - 새로운 개념에 대해 스스로 묻고 답하여 주제별로 [정리합니다.](https://www.notion.so/TIL-Today-I-Learned-877df2c605464a6ca94746b798559966)
-  - 칸반 보드를 이용하여 [협업합니다.](https://github.com/cs-devops-bootcamp/devops-01-Final-TeamB-Senario-01/projects/1)
-
-  ---
-
-  ## **My goal**
-
-  - 대용량 트래픽을 다루는 서비스의 인프라를 구현해보고 싶습니다.
-  - 클라우드 비용최적화에 관심이 많습니다. Lambda, ECS와 같은 서버리스 서비스에 대해 더 알고 싶습니다.
-  - CI/CD 파이프라인을 더 잘 구성하기위해, 테스트코드 작성에 대해 더 알고 싶습니다.
-  - 나의 성과, 생각을 항상 나누는 사람이 되고 싶습니다. [코드스테이츠 인터뷰 영상](https://thereisnotherway.tistory.com/96)
+  안녕하십니까? 이희성입니다. 저는 다음과 같은 사람입니다.
+  - 저는 누구와도 **즐겁게** 일하고, **함께** 성장하고 싶은 데브옵스 주니어 개발자 입니다.
+  - 저는 **논리, 끈기, 독해력**만 있으면 어떠한 것도 익히고 적용할 수 있다고생각합니다.
+  - 저는 **소통과 업무 효율은 비례관계**라 생각합니다.
+  - 저는 AWS, 특히 **클라우드 비용최소화**에 관심이 많습니다. Lambda, ECS와 같은 **서버리스 서비스**를 더 알아가고 싶습니다.
+  - 저는 항상 질문을 던지고 **스스로 답변하는** 방식을 통해 학습을 진행했습니다. 그 과정을 **나만의 언어**로 바꾸어 [블로그](https://thereisnotherway.tistory.com/)와 [노션 TIL](https://gigantic-thistle-8c2.notion.site/TIL-Today-I-Learned-877df2c605464a6ca94746b798559966)에 차곡차곡 정리했습니다.
+  - 저는 페어, 팀원과 함께 **고민하고, 의견을 주고받는** 과정에서 많이 배우고 성장했습니다.
 
 content:
+  - title: contents
+    layout: list
+    content:
+      - layout: list
+        description: | 
+            **제 이력서에 방문하신것을 환영합니다! 이력서는 다음과 같은 순서로 이루어져 있습니다.**
+
+            - 부트캠프에서 제가 받은 평가
+            - 활용가능한 기술 
+            - 프로젝트경험 
+            - 경력 
+            - 교육사항
+            - 취미
+
+            **기술 블로그와 깃허브, 링크드인 프로필도 꼭 확인해주세요!** 코드스테이츠 수강생 대표로 [인터뷰한 영상](https://thereisnotherway.tistory.com/96)도 있어요!
+
+  - title: People say about me # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 코드스테이츠 부트캠프
+        sub_title: DevOps 1기 페어/팀 리뷰
+        caption: 2022.02 ~ 2022.06
+        description: | 
+          - 팀원간 **적극적 의사소통**을 주도합니다. 그리고 **재치있는 발표** 덕분에 좋은 마무리가 될 수 있었습니다.
+          - AWS 어려웠지만 **같이 문제 해결**하고 **적극적으로 도와주셔서** 고마웠습니다.
+          - 페어프로그래밍에 앞서 스프트린에 대한 내용을 **능동적으로 먼저 준비하셔서** 원활히 진행되었습니다. 그리고 **아침마다 반갑게 인사**해주시고, 저녁에도 제가 헤메는 부분이 있을 때 정규시간이 아님에도 **기꺼이 밤을 새주셔서** 도와주실때 너무 미안하면서도 감사했습니다.
+          - 페어하면서 시간과 여건이 부족한 저를 **이해해주시고** 희성님덕분에 SAM과 LAMBDA에 대한 전반적인 흐름과 코드를 보는법에 대해서 **하나하나 케어해주셔서** 이번과정에 대한 전반적인 이해를 도움만 받은거같습니다.
+          - 중간중간 **놓치고 간 부분**에 대해서도 **잘 잡아주셔서** 도움 많이 됐어요!
+          - 어려운 문제나 막히는 부분이 있으면 언제나 여쭤볼 수 있어서 좋았습니다. 팀 구성이 4명이라 의사소통이 조금 어려울수 있음에도 불구하고 희성님이 언제나 **다른 팀원들과 적극적인 의사소통을** 해주시고, 저의 **진행사항 체크**는 물론, 제가 겪고있는 문제들에 대해서도 **피드백**해주셔서 덕분에 프로젝트를 무사히 잘 마친것 같습니다. 감사합니다!
+          - 늘 **좋은 기운**을가진 우리 희성님ㅋㅋ 광고잘봤습니다.
+          - 희성님과 쿠버네티스 같이 진행해서 재밌었고, 모르는거 **물어볼때마다 친절하게 알려줘서** 고마웠습니다.
+
   - title: Skills
     layout: list
     content: 
-      - layout: text
-        description: 부트캠프를 진행하면서 사용했던 기술입니다. 프로덕션단계에서 활용하기 위해서는 추가적인 학습이 필요합니다.
-    
       - layout: top-middle
         title: DevOps
         description: |
-          - Docker
-          - GitHub Action
-          - Terraform
-          - kubernetes
-          - k6
-          - Prometheus, Grafana
+          - Docker를 활용하여 애플리케이션 컨테이너화 가능
+          - GitHub Action, CodePipeline을 활용하여 배포 자동화 구현 가능
+          - Terraform을 활용하여 AWS 리소스를 코드로 가질 수 있음
+          - shell script를 활용하여 업무 자동화 가능
+          - GitHub를 활용하여 협업 가능
+          - kubernetes를 활용하여 간단한 컨테이너 오케스트레이션 가능
+          - k6를 활용하여 HTTP Request 성능 테스트 가능
+          - Prometheus, Grafana를 활용하여 모니터링 시스템 구축 경험
 
         
       - layout: top-middle
         title: AWS
         description: |
-          - EC2, lambda
-          - ECR, ECS
-          - RDS(MySQL), ElastiCache, Opensearch
-          - S3, CloudWatch, AutoScaling
-          - VPC, API Gateway, Route53, CloudFront
-          - SQS, SNS
-          - Code Pipeline
-          - IAM, Cost Explorer
+          - CloudFormation template을 활용하여 인프라 관리 경험
+          - 리소스를 이해하고, 아키텍쳐로 표현 가능
+          - 공식문서를 참고하여 아키텍쳐를 인프라로 구성 가능
+          - Cost Explorer를 활용하여 리소스 비용 관리 가능
 
       - layout: top-middle
         title: Backend
         description: |
-          - Node.js, express js, fastify js
-          - Nginx
-          - MySQL, MongoDB atlas
-      
-      - layout: top-middle
-        title: ect
-        description: |
-          - GitHub
-          - Linux Ubuntu
-          - Shell Script
-
+          - My SQL, MongoDB와 node.js로 작성된 WAS 서버 구현 가능
+          - node.js로 3-tier 웹 서비스 구현 가능
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -135,8 +139,6 @@ content:
         quote: >
           HTTP 프로토콜에 대한 이해와 REST API 작성법을 바탕으로 3-tier 웹 서비스 작성
         description: | # this will include new lines to allow paragraphs
-          ## **WHAT I DID.**
-
           - 회의를 통해 서비스 기능명세를 확정하고, ERD를 그림.
           - WAS서버를 fastify로 구성하고, REST API 문서를 작성하여 예상 Req와 Res를 특정함.
           - 작성된 API 문서에 따라 get, post, put, delete 등 다양한 메소드 기능을 구현함.
@@ -217,42 +219,6 @@ content:
           - 예약 서버의 애플리케이션 로그를 CloudWatch로 수집하고, Opensearch에 데이터를 쌓음.
           - 예약 조회 시, 메인 DB(MySQL) 앞 단에 ElastiCache를 두어, 검색 속도를 향상시킴.
           - RDS 읽기 전용 복제본을 Multi AZ에 두어 데이터 내결함성과 가용성을 높임.
-  
-  - title: What I can do
-    layout: list
-    content:
-      - title: Skills
-    layout: list
-    content: 
-      - layout: top-middle
-        title: DevOps
-        description: |
-          - Docker를 활용하여 애플리케이션 컨테이너화 가능
-          - GitHub Action, CodePipeline을 활용하여 배포 자동화 구현 가능
-          - Terraform을 활용하여 AWS 리소스를 코드로 가질 수 있음
-          - shell script를 활용하여 업무 자동화 가능
-          - GitHub를 활용하여 협업 가능
-          - kubernetes를 활용하여 간단한 컨테이너 오케스트레이션 가능
-          - k6를 활용하여 HTTP Request 성능 테스트 가능
-          - Serverless Framework를 사용하여 AWS의 아키텍처 구현 가능
-          - Prometheus, Grafana를 활용하여 모니터링 시스템 구축 경험
-
-        
-      - layout: top-middle
-        title: AWS
-        description: |
-          - CloudFormation template을 활용하여 인프라 관리 경험
-          - SAM(Serverless Application Model)을 활용하여 서버리스 앱 구성 가능
-          - 리소스를 이해하고, 아키텍쳐로 표현 가능
-          - 공식문서를 참고하여 아키텍쳐를 인프라로 구성 가능
-          - Cost Explorer를 활용하여 리소스 비용 관리 가능
-
-      - layout: top-middle
-        title: Backend
-        description: |
-          - My SQL, MongoDB와 node.js로 작성된 WAS 서버 구현 가능
-          - node.js로 3-tier 웹 서비스 구현 가능
-          - Nginx로 웹서버 구현 가능
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -261,10 +227,10 @@ content:
         title: 코드스테이츠
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: DevOps 1기 부트캠프
-        caption: 2022.02 ~ 2022.06
-        description: |
-
+        sub_title: DevOps 1기 부트캠프 수료
+        caption: February 2022 - June 2022
+        quote: >
+          DevOps에 대해 배우고, 개발자로써 공부해나가는 법과 남들과 소통을 통해 협업하여 결과물을 만들어 내는 법을 연습했습니다. 
         # description: | # this will include new lines to allow paragraphs
         #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
@@ -291,6 +257,8 @@ content:
       - [낚시](https://blog.naver.com/lscc1503)
       - 독서 모임
       - 러닝
+
+      ![ilovefishing](./images/ilovefishing.jpg "ilovefishing")
 
 # Footer
 footer_show_references: true

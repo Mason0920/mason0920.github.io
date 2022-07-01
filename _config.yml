@@ -320,11 +320,10 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      저는 개발 외에도 스트레스 관리를 위해 건강한 취미를 갖고 있어요!!
+      개발 외에도 스트레스 관리를 위해 건강한 취미를 갖고 있어요!!
       - [<u>낚시</u>](https://blog.naver.com/lscc1503)
-      - 독서 모임
-      - 러닝
-      - 배드민턴
+      - [<u>독서 모임</u>](./images/reading.jpeg)
+      - [<u>러닝</u>](./images/running.jpeg)
 
 # Footer
 footer_show_references: true

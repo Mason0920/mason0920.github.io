@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
   경제학을 전공하여 금융의 클라우드 혁신에 깊은 관심이 있습니다. 렌딧 CEO님의 브런치글을 읽고, P2P 금융 혁신을 주도하는 회사임에 큰 매력을 느꼈습니다.
   금융혁신에 가장 큰 걸림돌은 언급하셨듯, 개인정보 보호 규제입니다. 그러나 우리사회는 물론 금융업도, 필연적으로 클라우드화가 될 것이며 기술적 부분이 많은 것을 대체하리라 생각합니다.
   금융혁신을 이루어 모두가 편리하게 사용할 수 있는 개인화된 서비스를 만들고 싶습니다. 제 뜻과 렌딧의 뜻이 일치하여, 함께 걸림돌을 헤쳐나가고 싶습니다.
-  
+
   "생각했던 무언가를 만들어 낼 수 있다"는 점때문에 코딩을 좋아합니다.
   컴퓨터 공학의 기초를 배우는 것이 필요하다 판단하여 대학교에서 ai, 빅데이터 연계전공을 수강했습니다.
   실제, r studio로 졸업과제에 관광객 데이터로 유의미한 결과를 만들어냈습니다.
@@ -130,7 +130,7 @@ content:
     content:
       - layout: top-middle
         title: 나만의 투표서비스
-        link: https://thereisnotherway.tistory.com/35
+        # link: https://thereisnotherway.tistory.com/35
         # link_text: Project Website
         additional_links:
           - title: Mason0920/devops01-P1-TeamA
@@ -153,6 +153,9 @@ content:
           - WAS서버를 fastify로 구성하고, REST API 문서를 작성하여 예상 Req와 Res를 특정함.
           - 작성된 API 문서에 따라 get, post, put, delete 등 다양한 메소드 기능을 구현함.
           - 프로젝트의 전체 흐름을 파악하고 있기에 발표를 했고, 평가에서 1등을 함.
+
+          ## **Retrospect.**
+          - [<u>프로젝트 회고</u>](https://thereisnotherway.tistory.com/35)
 
           ## **Tech Stack.**
           node.js, fastify, swagger api, RESTful API, ERD
@@ -180,6 +183,12 @@ content:
           - GitHub Action을 이용하여, 코드 푸쉬 시 ECS에 배포되게 CI/CD 구현함.
           - api 문서와 예제 코드에 따라 fastify CRUD 구현함.
           - 주어진 react로 작성된 프론트엔드 코드를 빌드 -> s3 배포하는 CI/CD 구현함.
+
+          ## **Trouble Shooting.**
+
+          - [<u>CodeBuild 배포 자동화 구성 중, s3 권한에러</u>](https://thereisnotherway.tistory.com/51)
+          - [<u>GitHub Action으로 ECS 배포 자동화 구성 중, 권한에러</u>](https://thereisnotherway.tistory.com/52)
+        
 
           ## **Tech Stack.**
           GitHub Action, Code Pipeline, fastify, ECS, react, s3, docker-compose, MongoDB
@@ -216,6 +225,9 @@ content:
             - 공장서버의 콜백 메시지를 받아 재고를 추가하는 람다를 구현함.
             - 인프라를 Terraform으로 배포하기(미완성)
 
+          ## **Retrospect.**
+          - [<u>커뮤니케이션의 중요성에 대해</u>](https://thereisnotherway.tistory.com/76?category=1002025)
+
           ## **Tech Stack.**
           Serverless framework, lambda, SQS, SNS, MSA, k6, DLQ, Terraform, Shell Script
 
@@ -248,6 +260,11 @@ content:
           - 예약 서버의 애플리케이션 로그를 CloudWatch로 수집하고, Opensearch에 데이터를 쌓음.
           - 예약 조회 시, 메인 DB(MySQL) 앞 단에 ElastiCache를 두어, 검색 속도를 향상시킴.
           - RDS 읽기 전용 복제본을 Multi AZ에 두어 데이터 내결함성과 가용성을 높임.
+
+          ## **Retrospect.**
+          - [<u>회고록</u>](https://thereisnotherway.tistory.com/category/%ED%9A%8C%EA%B3%A0%EB%A1%9D)
+          - [<u>AutoScaling과 alb에 관하여</u>](https://thereisnotherway.tistory.com/95?category=1002025)
+
 
           ## **Tech Stack.**
           ElastiCache, Opensearch, SQS, CloudWatch, ECS, GitHub Action, RDS, MySQL, Terraform, AutoScaling

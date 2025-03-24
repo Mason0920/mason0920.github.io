@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: 이희성
 title: Junior DevOps Engineer
-phone: 010-8925-9242
+phone: +821089259242
 email: lscc1504@g.kmou.ac.kr
 website: https://thereisnotherway.tistory.com/
 website_title: Blog
@@ -37,293 +37,125 @@ linkedin_username: mason0920
 #   icon: fas fa-globe
 #   url: https://www.itsgoingto.be
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+#   icon: fab fa-twitter
+#   url: https://google.com
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   ## **Introduction**
 
-  "생각했던 무언가를 만들어 낼 수 있다"는 점때문에 코딩을 좋아합니다.
-  컴퓨터 공학의 기초를 배우는 것이 필요하다 판단하여 대학교에서 ai, 빅데이터 연계전공을 수강했습니다.
-  네트워크, 자료구조, 수리통계 과목을 수강하며 컴퓨터 공학에 대해 흥미를 느껴 개발직군으로 진로를 정했습니다.
-
-  효율성을 추구하며 업무자동화에 힘쓰는 DevOps에 매력을 느꼈습니다.
-  DevOps 엔지니어로써 커뮤니케이션 능력과 프로젝트 경험을 쌓기 위해 부트캠프를 선택하여 제 진로에 다가갔습니다.
-  이곳에서 개발자로써 스스로 공부하는 법과 소통을 통해 협업하여 결과물을 만들어 내는 법을 연습했습니다.
-
-  유연하고 적극적으로 [<u>의사소통을</u>](https://www.notion.so/People-say-about-me-ce39ea376786464a83bda7624be383c7) 하는 사람입니다.
-  
-  ---
-
-  ## **How I learn**
-
-  - [<u>에러를 만났을때</u>](https://thereisnotherway.tistory.com/51) 주어진 상황을 분석하고 해결할 수 있습니다.
-  - 새로운 개념에 대해 스스로 묻고 답하여 주제별로 [<u>정리합니다.</u>](https://www.notion.so/TIL-Today-I-Learned-877df2c605464a6ca94746b798559966)
-  - 칸반 보드를 이용하여 [<u>협업합니다.</u>](https://gigantic-thistle-8c2.notion.site/5a8764775a1e42f59838e070e73f4ce0)
+  "한번 떨어진 신뢰는 회복하기 힘들다"라는 신념 아래, 반복 검증과 교차 검증을 통해 실수를 최소화하며 장애 없는 인프라 운영을 추구해왔습니다.  
+  코딩을 통해 문제 해결과 업무 자동화를 실현하며, 항상 최적의 성능과 안정성을 우선으로 생각합니다.  
+  대학교에서 AI 빅데이터 연계전공을 수강하며 컴퓨터 공학 기초를 다졌고, 코드스테이츠 DevOps 부트캠프를 통해 실무 역량을 강화하였습니다.
 
   ---
 
-  ## **My goal**
+  ## **How I Learn**
 
-  - 100만 MAU이상 서비스의 인프라를 loadbalancer와 Autoscaling을 이용하여 구현해보고 싶습니다.
-  - 클라우드 비용최적화에 관심이 많습니다. Lambda, ECS와 같은 서버리스 서비스를 활용하여 비용최적화에 기여하고 싶습니다.
-  - CI/CD 파이프라인 중 테스트 코드 작성에 관심이 있습니다. 테스트 코드 작성으로 더 잦은 배포에 기여하고 싶습니다.
-  - 나의 생각과 성과를 항상 나누는 사람이 되고 싶습니다. [<u>코드스테이츠 인터뷰 영상</u>](https://thereisnotherway.tistory.com/96)
+  - [<u>문제 발생 시 분석 및 해결</u>](https://thereisnotherway.tistory.com/51): 에러 상황을 철저히 분석하고 해결책을 도출합니다.
+  - [<u>자체 학습 및 정리</u>](https://www.notion.so/TIL-Today-I-Learned-877df2c605464a6ca94746b798559966): 새로운 개념에 대해 스스로 묻고 답하며 정리합니다.
+  - [<u>칸반 보드를 활용한 협업</u>](https://gigantic-thistle-8c2.notion.site/5a8764775a1e42f59838e070e73f4ce0): 체계적인 협업을 통해 프로젝트를 진행합니다.
+
+  ---
+
+  ## **My Goal**
+
+  - 100만 MAU 이상의 서비스를 안정적으로 운영하는 인프라 구축
+  - 클라우드 비용 최적화를 위해 서버리스와 자동화 기술 적극 활용
+  - 지속적인 테스트 코드 작성 및 CI/CD 개선을 통한 빠른 배포와 안정성 확보
+  - 경험과 성과를 공유하며 성장하는 DevOps 전문가로 거듭나기
 
 content:
   - title: Skills
     layout: list
-    content: 
-      - layout: top-middle
-        title: DevOps
-        description: |
-          - Docker
-          - GitHub Action
-          - Terraform
-          - kubernetes
-          - k6
-          - Prometheus, Grafana
-
-        
-      - layout: top-middle
-        title: AWS
-        description: |
-          - EC2, lambda
-          - ECR, ECS
-          - RDS(MySQL), ElastiCache, Opensearch
-          - S3, CloudWatch, AutoScaling
-          - VPC, API Gateway, Route53, CloudFront
-          - SQS, SNS
-          - Code Pipeline
-          - IAM, Cost Explorer
-
-      - layout: top-middle
-        title: Backend
-        description: |
-          - Node.js, express js, fastify js
-          - Nginx
-          - MySQL, MongoDB
-      
-      - layout: top-middle
-        title: etc
-        description: |
-          - GitHub
-          - Linux Ubuntu
-          - Shell Script
-
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: 나만의 투표서비스
-        # link: https://thereisnotherway.tistory.com/35
-        # link_text: Project Website
-        additional_links:
-          - title: Mason0920/devops01-P1-TeamA
-            icon: fab fa-github
-            url: https://github.com/Mason0920/devops01-P1-TeamA
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          2022.03.03 ~ 2022.03.07
-        description: | # this will include new lines to allow paragraphs
-          ## **Description.**
-          
-          사용자가 원하는 투표를 만들고 결과를 확인할 수 있는 서비스.
-          HTTP 프로토콜에 대한 이해와 REST API 작성법을 바탕으로 3-tier 웹 서비스 작성.
-          
-          ## **What I Did.**
-
-          - 서비스 기능명세를 확정하고, ERD를 그림.
-          - WAS서버를 fastify로 구성하고, REST API 문서를 작성하여 예상 Req와 Res를 특정함.
-          - 작성된 API 문서에 따라 get, post, put, delete 등 다양한 메소드 기능을 구현함.
-          - 프로젝트의 전체 흐름을 파악하고 있기에 발표를 했고, 평가에서 1등을 함.
-
-          ## **Retrospect.**
-          - [<u>프로젝트 회고</u>](https://thereisnotherway.tistory.com/35)
-
-          ## **Tech Stack.**
-          node.js, fastify, swagger api, RESTful API, ERD
-
+        title: DevOps & Automation
+        description: |
+          - Docker, Kubernetes, Karpenter, GitOps (ArgoCD, Helm)
+          - Git, Shell Scripting, Jenkins, GitHub Actions
+          - Terraform, Prometheus, Grafana, k6
       - layout: top-middle
-        title: AWS ECS CI/CD 파이프라인
-        # link: 채워넣기
-        # link_text: Project Website
-        additional_links:
-          - title:  Mason0920/devops-01-P2-TeamA
-            icon: fab fa-github
-            url: https://github.com/Mason0920/devops-01-P2-TeamA
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          2022.03.30 ~ 2020.04.05
-        description: | # this will include new lines to allow paragraphs
-          ## **Description.**
-          "선 배포 후 개발", GitHub Action과 Code Pipeline을 이용하여 CI/CD 구축
-          
-          ## **What I Did.**
-
-          - 간단한 hello-world를 띄울 fastify 서버작성함.
-          - GitHub Action을 이용하여, 코드 푸쉬 시 ECS에 배포되게 CI/CD 구현함.
-          - api 문서와 예제 코드에 따라 fastify CRUD 구현함.
-          - 주어진 react로 작성된 프론트엔드 코드를 빌드 -> s3 배포하는 CI/CD 구현함.
-
-          ## **Trouble Shooting.**
-
-          - [<u>CodeBuild 배포 자동화 구성 중, s3 권한에러</u>](https://thereisnotherway.tistory.com/51)
-          - [<u>GitHub Action으로 ECS 배포 자동화 구성 중, 권한에러</u>](https://thereisnotherway.tistory.com/52)
-        
-
-          ## **Tech Stack.**
-          GitHub Action, Code Pipeline, fastify, ECS, react, s3, docker-compose, MongoDB
-
+        title: Cloud Platforms
+        description: |
+          - AWS (EC2, Lambda@Edge, ECS, ECR, S3, CloudFront, CloudWatch, VPC, API Gateway, Route53, SQS, SNS)
+          - GCP
       - layout: top-middle
-        title: AWS MSA
-        link: https://thereisnotherway.tistory.com/76?category=1002025
-        # link_text: Project Website
-        additional_links:
-          - title:  Mason0920/project3-microservices-day1
-            icon: fab fa-github
-            url: https://github.com/Mason0920/devops-01-P3-day1
-          - title:  Mason0920/project3-microservices-day2
-            icon: fab fa-github
-            url: https://github.com/Mason0920/devops-01-P3-day2
-          - title:  Mason0920/project3-microservices-day3
-            icon: fab fa-github
-            url: https://github.com/Mason0920/devops-01-P3-day3                      # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          2022.04.28 ~ 2022.05.03
-        description: | # this will include new lines to allow paragraphs
-          ## **Description.**
-          "느슨한 결합"을 알고 Serverless framework로 MSA 아키텍쳐 구성 및 구현, 성능 테스트를 함. 고객의 요구사항에 따라 레거시 시스템에 "자동 재고 확보 시스템"을 위한 MSA를 구성하는 것이 목표였음.
-          
-          ## **What I Did.** 
-            - Serverless framework를 사용하여 legacy 시스템을 AWS lambda로 배포함.
-            - SQS 이용하여 Producer-Consumer 구조 구현함.
-            - SNS-SQS 환경에서, SNS 발행서버 구현함.
-            - k6 이용하여 성능 테스트 및 Dead Letter Queue(DLQ) 확인함.
-            - Sales API, Stock Empty 람다 배포함.
-            - Shell Script를 활용하여 공장 api REST API 문서를 s3에 배포를 자동화함.
-            - 공장서버의 콜백 메시지를 받아 재고를 추가하는 람다를 구현함.
-            - 인프라를 Terraform으로 배포하기(미완성)
-
-          ## **Retrospect.**
-          - [<u>커뮤니케이션의 중요성에 대해</u>](https://thereisnotherway.tistory.com/76?category=1002025)
-
-          ## **Tech Stack.**
-          Serverless framework, lambda, SQS, SNS, MSA, k6, DLQ, Terraform, Shell Script
-
+        title: Backend & Programming
+        description: |
+          - Node.js, Go, Java
+          - Express.js, Fastify
+          - MySQL, MongoDB, Redis, ElasticSearch
       - layout: top-middle
-        title: 화물 운송 예약/조회/알림 서비스
-        link: https://www.notion.so/fdb10a4dc3974a85a210efbce8aba6dc?v=611e84a3dba6414e9d7727060db7eb8b
-        # link_text: Project Website
-        additional_links:
-          - title:  Mason0920/devops-01-Final-TeamB-Senario-01
-            icon: fab fa-github
-            url: https://github.com/Mason0920/devops-01-Final-TeamB-Senario-01
-          - title:  Mason0920/project4_sqs_consumer
-            icon: fab fa-github
-            url: https://github.com/Mason0920/project4_sqs_consumer
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          2022.05.17 ~ 2022.06.07
-        description: | # this will include new lines to allow paragraphs
-          ## **Description.**
-          
-          요구사항에 따라 확장성과 가용성, 서비스 속도 향상을 고려하여 아키텍쳐 작성, 예약 서비스 구현
+        title: Others
+        description: |
+          - Linux (Ubuntu)
+          - Git, Shell Script
 
-          ## **What I Did.**
-
-          - ElastiCache, Opensearch, SQS, CloudWatch 등 기술을 활용하여 아키텍쳐 작성함.
-          - 프로젝트 기간(2주)을 고려하여 예상 비용을 계산하고, 결제 품의서를 작성, 제출함.
-          - 알림 서버를 node.js로 구현하고, 컨테이너화 하여 ECS에 GitHub Action을 이용하여 배포 자동화 구현함.
-          - 예약 서버의 애플리케이션 로그를 CloudWatch로 수집하고, Opensearch에 데이터를 쌓음.
-          - 예약 조회 시, 메인 DB(MySQL) 앞 단에 ElastiCache를 두어, 검색 속도를 향상시킴.
-          - RDS 읽기 전용 복제본을 Multi AZ에 두어 데이터 내결함성과 가용성을 높임.
-
-          ## **Retrospect.**
-          - [<u>회고록</u>](https://thereisnotherway.tistory.com/category/%ED%9A%8C%EA%B3%A0%EB%A1%9D)
-          - [<u>AutoScaling과 alb에 관하여</u>](https://thereisnotherway.tistory.com/95?category=1002025)
-
-
-          ## **Tech Stack.**
-          ElastiCache, Opensearch, SQS, CloudWatch, ECS, GitHub Action, RDS, MySQL, Terraform, AutoScaling
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: 코드스테이츠
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: DevOps 1기 부트캠프
-        caption: 2022.02 ~ 2022.06
+        title: 주식회사 마켓보로
+        sub_title: Kube Native App 개발 및 클라우드 인프라 운영
+        caption: 2023.08 - 현재
         description: |
-          ## **DevOps**
-          - Docker를 활용하여 애플리케이션 컨테이너화 가능
-          - GitHub Action, CodePipeline을 활용하여 배포 자동화 구현 가능
-          - Terraform을 활용하여 AWS 리소스를 코드로 가질 수 있음
-          - shell script를 활용하여 업무 자동화 가능
-          - GitHub를 활용하여 협업 가능
-          - kubernetes를 활용하여 간단한 컨테이너 오케스트레이션 가능
-          - k6를 활용하여 HTTP Request 성능 테스트 가능
-          - Serverless Framework를 사용하여 AWS의 아키텍처 구현 가능
-          - Prometheus, Grafana를 활용하여 모니터링 시스템 구축 경험
+          **신뢰 기반 인프라 운영**
+          - **Scheduler 개발 (Golang):**  
+            사내 테스트 자동화 프로그램에서 브라우저 테스트를 무한 확장 가능하도록 Pod를 띄우고, 실행 결과와 로그를 실시간으로 확인할 수 있는 Scheduler 개발.
+          - **CronJob Manager 개발 (Golang):**  
+            CronJob 실행 및 관리 체계 구축을 통한 업무 자동화 향상.
+          - **페이지 속도 개선 (2025.01 - 2025.03):**  
+            CDN + Lambda@Edge를 활용하여 이미지 확장자 변환 및 크기 조절 함수 개발, 이미지 다수 페이지의 로딩 속도를 33% 개선.
+          - **오픈소스 활용 (2024.07 - 2024.09):**  
+            ElasticSearch, Redis Cluster, Airflow, Redash, Growthbook, Prometheus, Grafana, Loki, Kubecost 등 다양한 오픈소스 솔루션을 Kubernetes에서 호스팅 및 운영.
+          - **Kubernetes 도입 (2024.04 - 2024.12):**  
+            ArgoCD를 통한 GitOps 구현, Helm Chart 구성 및 Karpenter + Spot Instance를 활용한 인프라 비용 최적화.
+          - **모니터링 시스템 도입 (2024.01 - 2024.12):**  
+            Prometheus + Grafana를 사용해 인프라 메트릭 중앙화, Prometheus Alert + Slack 연동 및 Loki + S3를 통한 로그 관리로 안정적 운영 기여.
 
-          ## **AWS**
-          - CloudFormation template을 활용하여 인프라 관리 경험
-          - SAM(Serverless Application Model)을 활용하여 서버리스 앱 구성 가능
-          - 리소스를 이해하고, 아키텍쳐로 표현 가능
-          - 공식문서를 참고하여 아키텍쳐를 인프라로 구성 가능
-          - Cost Explorer를 활용하여 리소스 비용 관리 가능
+      - layout: left
+        title: 주식회사 와탭랩스
+        sub_title: 테스트 자동화 및 SaaS 운영
+        caption: 2023.04 - 2024.06
+        description: |
+          - **테스트 자동화:**  
+            EKS에 Selenium Grid 구성, Selenium UI 테스트 스크립트 작성, 배포 시 테스트 실행 및 Prometheus와 Slack 연동을 통한 결과 가시화.
+          - **SaaS 운영:**  
+            Java 애플리케이션 장애 상황 대응 및 분석, Disk full 및 OOM 상황 분석을 통한 병목 인지 및 대응, 관련 보고서 작성.
 
-          ## **Backend**
-          - My SQL, MongoDB와 node.js로 작성된 WAS 서버 구현 가능
-          - node.js로 3-tier 웹 서비스 구현 가능
-          - Nginx로 웹서버 구현 가능
-        # description: | # this will include new lines to allow paragraphs
-        #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+      - layout: left
+        title: 코드스테이츠 DevOps 부트캠프
+        sub_title: 실무 역량 강화 교육
+        caption: 2022.02 - 2022.06
+        description: |
+          - Docker, Kubernetes, Git, Shell Scripting 등 DevOps 핵심 기술 습득.
+          - GitHub Actions, Terraform, Prometheus, Grafana 등을 활용한 배포 자동화 및 모니터링 시스템 구축 경험.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: top-middle
         title: 한국해양대학교
         caption: 2016 - 2022
-        sub_title: 국제무역경제학사, ai 빅데이터 연계전공
-
-        # description: | # this will include new lines to allow paragraphs
-        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+        sub_title: 국제무역경제학사, AI 빅데이터 연계전공
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      개발 외에도 스트레스 관리를 위해 건강한 취미를 갖고 있어요!!
+    content: |
+      개발 외에도 스트레스 관리를 위해 건강한 취미 생활을 즐깁니다!
       - [<u>낚시</u>](https://blog.naver.com/lscc1503)
       - [<u>독서 모임</u>](./images/reading.jpeg)
       - [<u>러닝</u>](./images/running.jpeg)
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -333,4 +165,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag

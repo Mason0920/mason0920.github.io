@@ -7,9 +7,8 @@ version: 2
 
 # Personal info
 name: 이희성
-title: Junior DevOps Engineer
-phone: +821089259242
-email: lscc1504@g.kmou.ac.kr
+title: DevOps / Cloud Platform Engineer
+email: lscc1503@naver.com
 website: https://thereisnotherway.tistory.com/
 website_title: Blog
 
@@ -17,134 +16,139 @@ website_title: Blog
 darkmode: false
 
 # Social links
-# twitter_username: facespics
 github_username: mason0920
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 linkedin_username: mason0920
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: fab fa-twitter
-#   url: https://google.com
-
-# Google Analytics and Tag Manager
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
   ## **Introduction**
 
-  "한번 떨어진 신뢰는 회복하기 힘들다"라는 신념 아래, 반복 검증과 교차 검증을 통해 실수를 최소화하며 장애 없는 인프라 운영을 추구해왔습니다.  
-  코딩을 통해 문제 해결과 업무 자동화를 실현하며, 항상 최적의 성능과 안정성을 우선으로 생각합니다.  
-  대학교에서 AI 빅데이터 연계전공을 수강하며 컴퓨터 공학 기초를 다졌고, 코드스테이츠 DevOps 부트캠프를 통해 실무 역량을 강화하였습니다.
+  AWS와 GCP 위에서 Kubernetes 플랫폼을 설계하고 운영해 온 4년 차(2022.04~) DevOps 엔지니어입니다.
+  EKS를 Terraform으로 처음 구성해 운영 클러스터로 전환했고, Karpenter Spot 우선 프로비저닝, GitOps 배포, 관측성과 알람 체계를 맡아 왔습니다.
+  "한번 떨어진 신뢰는 회복하기 힘들다"는 원칙으로 수치와 장애 원인을 교차 검증하고, 하는 일은 블로그와 GitHub에 글과 코드로 남깁니다.
 
   ---
 
-  ## **How I Learn**
+  ## **How I Work**
 
-  - [<u>문제 발생 시 분석 및 해결</u>](https://thereisnotherway.tistory.com/51): 에러 상황을 철저히 분석하고 해결책을 도출합니다.
-  - [<u>자체 학습 및 정리</u>](https://www.notion.so/TIL-Today-I-Learned-877df2c605464a6ca94746b798559966): 새로운 개념에 대해 스스로 묻고 답하며 정리합니다.
-  - [<u>칸반 보드를 활용한 협업</u>](https://gigantic-thistle-8c2.notion.site/5a8764775a1e42f59838e070e73f4ce0): 체계적인 협업을 통해 프로젝트를 진행합니다.
-
-  ---
-
-  ## **My Goal**
-
-  - 100만 MAU 이상의 서비스를 안정적으로 운영하는 인프라 구축
-  - 클라우드 비용 최적화를 위해 서버리스와 자동화 기술 적극 활용
-  - 지속적인 테스트 코드 작성 및 CI/CD 개선을 통한 빠른 배포와 안정성 확보
-  - 경험과 성과를 공유하며 성장하는 DevOps 전문가로 거듭나기
+  - [<u>블로그</u>](https://thereisnotherway.tistory.com/): 운영하며 만난 문제와 해결 과정을 문제, 시도, 결과 순서로 기록합니다.
+  - [<u>GitHub</u>](https://github.com/Mason0920): 회사에서 쓰던 패턴을 개인 시간에 처음부터 다시 구현해 코드로 공개합니다.
+  - AI 코딩 에이전트(Claude Code)를 배포 구성과 운영 수치 검증에 쓰고, 결과는 직접 교차 검증합니다.
 
 content:
   - title: Skills
     layout: list
     content:
       - layout: top-middle
-        title: DevOps & Automation
+        title: Container & Platform
         description: |
-          - Docker, Kubernetes, Karpenter, GitOps (ArgoCD, Helm)
-          - Git, Shell Scripting, Jenkins, GitHub Actions
-          - Terraform, Prometheus, Grafana, k6
+          - Kubernetes (EKS, GKE), Karpenter, Helm, ArgoCD
+          - Docker, Multi-arch (AMD64 + ARM64) 빌드
       - layout: top-middle
-        title: Cloud Platforms
+        title: Cloud
         description: |
-          - AWS (EC2, Lambda@Edge, ECS, ECR, S3, CloudFront, CloudWatch, VPC, API Gateway, Route53, SQS, SNS)
-          - GCP
+          - AWS (EKS, ECS/Fargate, EC2, Lambda@Edge, S3, CloudFront, CloudWatch, VPC, Route53, SQS, SNS)
+          - GCP (GKE, Datastream, BigQuery)
       - layout: top-middle
-        title: Backend & Programming
+        title: IaC & CI/CD
         description: |
-          - Node.js, Go, Java
-          - Express.js, Fastify
-          - MySQL, MongoDB, Redis, ElasticSearch
+          - Terraform, Terragrunt
+          - GitHub Actions, Bitbucket Pipelines, OIDC 기반 Keyless 인증
       - layout: top-middle
-        title: Others
+        title: Observability
         description: |
-          - Linux (Ubuntu)
-          - Git, Shell Script
+          - Prometheus, Alertmanager, Grafana, Loki, OpenTelemetry, k6
+      - layout: top-middle
+        title: Programming
+        description: |
+          - Go, Node.js, Shell Script
 
   - title: Experience
     layout: list
     content:
       - layout: left
-        title: 주식회사 마켓보로
-        sub_title: Kube Native App 개발 및 클라우드 인프라 운영
+        title: 주식회사 마켓보로 (CJ그룹 계열)
+        sub_title: DevOps 엔지니어, 클라우드 인프라 운영
         caption: 2023.08 - 현재
         description: |
-          **신뢰 기반 인프라 운영**
-          - **Scheduler 개발 (Golang):**  
-            사내 테스트 자동화 프로그램에서 브라우저 테스트를 무한 확장 가능하도록 Pod를 띄우고, 실행 결과와 로그를 실시간으로 확인할 수 있는 Scheduler 개발.
-          - **CronJob Manager 개발 (Golang):**  
-            CronJob 실행 및 관리 체계 구축을 통한 업무 자동화 향상.
-          - **페이지 속도 개선 (2025.01 - 2025.03):**  
-            CDN + Lambda@Edge를 활용하여 이미지 확장자 변환 및 크기 조절 함수 개발, 이미지 다수 페이지의 로딩 속도를 33% 개선.
-          - **오픈소스 활용 (2024.07 - 2024.09):**  
-            ElasticSearch, Redis Cluster, Airflow, Redash, Growthbook, Prometheus, Grafana, Loki, Kubecost 등 다양한 오픈소스 솔루션을 Kubernetes에서 호스팅 및 운영.
-          - **Kubernetes 도입 (2024.04 - 2024.12):**  
-            ArgoCD를 통한 GitOps 구현, Helm Chart 구성 및 Karpenter + Spot Instance를 활용한 인프라 비용 최적화.
-          - **모니터링 시스템 도입 (2024.01 - 2024.12):**  
-            Prometheus + Grafana를 사용해 인프라 메트릭 중앙화, Prometheus Alert + Slack 연동 및 Loki + S3를 통한 로그 관리로 안정적 운영 기여.
+          - **EKS 플랫폼 설계·도입 (2023.09 설계 착수, 2024 운영 전환):**
+            Terraform으로 EKS와 Karpenter IaC를 처음 구성. 노드 46-65대, Pod 약 500-670개 규모 운영 클러스터를 ArgoCD GitOps로 운영.
+          - **Spot 우선 비용 최적화:**
+            Karpenter Spot 우선 프로비저닝을 설계해 운영 클러스터 vCPU의 63-66%를 Spot으로 운영. NodePool을 정리하고 Karpenter 구성 대부분을 직접 작성.
+          - **단위 효율:**
+            월 요청량이 2.2배 느는 동안 vCPU 증가는 1.7배로 억제해 요청당 컴퓨팅(vCPU-시간) 약 20% 절감 (2025.09 - 2026.10).
+          - **배포 안정성:**
+            Health check, graceful shutdown 가이드와 ALB Pod Readiness Gate를 도입해 배포 중 5xx를 줄임. 주 서비스 90일 요청 성공률 99.97%(5xx 제외).
+          - **오토스케일링·알람 개선 (팀 공동):**
+            Aurora 리더·ECS 오토스케일링 적용, 리더 CPU 과부하 시간 77% 감소. 알람을 3단계 심각도로 재분류하고 수집 경로를 정리.
+          - **관측성:**
+            Prometheus, Grafana, Loki, OpenTelemetry 구성. Lambda 로그를 Loki 레이어로 전환하고 OpenTelemetry 계측 적용.
+          - **보안:**
+            CI/CD와 워크로드의 정적 액세스 키를 IAM OIDC, IRSA, GCP Workload Identity Federation 기반 Keyless 인증으로 전환.
+          - **운영 도구:**
+            CronJob 실행·관리 도구 개발 (Go). ElasticSearch, Redis Cluster, Airflow, Redash, Growthbook을 Kubernetes에서 운영.
+          - **AI 활용:**
+            Claude Code로 배포 구성과 운영 분석 수치를 교차 검증하는 절차 도입, 팀용 Claude Code 활용 가이드 작성.
 
       - layout: left
         title: 주식회사 와탭랩스
         sub_title: 테스트 자동화 및 SaaS 운영
-        caption: 2023.04 - 2024.06
+        caption: 2022.04 - 2023.08
         description: |
-          - **테스트 자동화:**  
-            EKS에 Selenium Grid 구성, Selenium UI 테스트 스크립트 작성, 배포 시 테스트 실행 및 Prometheus와 Slack 연동을 통한 결과 가시화.
-          - **SaaS 운영:**  
-            Java 애플리케이션 장애 상황 대응 및 분석, Disk full 및 OOM 상황 분석을 통한 병목 인지 및 대응, 관련 보고서 작성.
+          - **테스트 자동화:**
+            EKS에 Selenium Grid 구성, UI 테스트 스크립트 작성, 배포 시 테스트 실행과 Prometheus·Slack 연동으로 결과 가시화.
+          - **SaaS 운영:**
+            Java 애플리케이션 장애 대응·분석, Disk full·OOM 분석으로 병목 파악과 대응, 관련 보고서 작성.
 
       - layout: left
         title: 코드스테이츠 DevOps 부트캠프
         sub_title: 실무 역량 강화 교육
         caption: 2022.02 - 2022.06
         description: |
-          - Docker, Kubernetes, Git, Shell Scripting 등 DevOps 핵심 기술 습득.
-          - GitHub Actions, Terraform, Prometheus, Grafana 등을 활용한 배포 자동화 및 모니터링 시스템 구축 경험.
+          - Docker, Kubernetes, GitHub Actions, Terraform, Prometheus, Grafana로 배포 자동화와 모니터링 구성.
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: platform-lab
+        link: github.com/Mason0920/platform-lab
+        link_text: GitHub
+        description: |
+          kind + Terragrunt 로컬 실습 클러스터와 범용 Helm 차트. probe, preStop drain, HPA, PDB, topology spread, Spot 선호, OTel 설정을 안전한 기본값으로 담고 CI에서 kubeconform으로 검증.
+      - layout: top-middle
+        title: alert-normalizer
+        link: github.com/Mason0920/alert-normalizer
+        link_text: GitHub
+        description: |
+          CloudWatch(SNS 서명 검증), Datadog, 일반 웹훅 알람을 하나의 스키마로 정규화해 Alertmanager로 보내는 Go 서비스. 재시도, 재전송, 순서 보장 포함.
+      - layout: top-middle
+        title: k8s-cronjob-manager
+        link: github.com/Mason0920/k8s-cronjob-manager
+        link_text: GitHub
+        description: |
+          kubectl 권한 없이 CronJob을 지금 실행, 일시정지, 이력과 로그 확인까지 하는 Go(client-go) + React 도구. 네임스페이스 단위 최소 권한 RBAC.
+      - layout: top-middle
+        title: sre-reference-service
+        link: github.com/Mason0920/sre-reference-service
+        link_text: GitHub
+        description: |
+          작은 Go 서비스에 CI/CD와 자동 롤백, Prometheus·Loki·Jaeger, SLO와 에러 버짓, 알람별 런북, k6 부하 테스트를 붙인 레퍼런스.
+      - layout: top-middle
+        title: devops-examples
+        link: github.com/Mason0920/devops-examples
+        link_text: GitHub
+        description: |
+          Karpenter Spot 우선 NodePool, GitHub Actions·Bitbucket·IRSA·EKS to GCP Keyless OIDC, Grafana 대시보드 코드화 Terraform 예제.
 
   - title: Education
     layout: list
     content:
       - layout: top-middle
-        title: 한국해양대학교
+        title: 국립한국해양대학교
         caption: 2016 - 2022
-        sub_title: 국제무역경제학사, AI 빅데이터 연계전공
+        sub_title: 국제무역경제학부 경제학 학사, AI 빅데이터 연계전공
 
   - title: A Little More About Me
     layout: text
